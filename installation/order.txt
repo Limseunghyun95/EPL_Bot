@@ -1,0 +1,11 @@
+# install package update
+yum update
+
+# anaconda install
+wget https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
+
+# create conda virtualenv
+conda create -n venv python=3.9
+
+# install git
+yum install -y git

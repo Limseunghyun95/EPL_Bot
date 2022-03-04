@@ -1,6 +1,3 @@
-# python_mini_project
-
-
 # EPL 축구 경기 결과를 개인 SNS나 Email 주소로 전송하는 Python mini project
 
 

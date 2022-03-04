@@ -9,3 +9,18 @@ conda create -n venv python=3.9
 
 # install git
 yum install -y git
+
+# timezone 변경
+sudo timedatectl set-timezone Asia/Seoul
+
+# chrome 설치
+yum -y install https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+
+# chrome version 확인
+# google-chrome --version
+
+# chrome driver 설치
+# https://sites.google.com/chromium.org/driver/downloads?authuser=0
+# 크롬 버전에 호환되는 크롬 드라이버 다운로드 화면으로 이동
+# 다운로드 링크에서 chromedriver_linux64.zip의 링크 주소 복사
+wget https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_linux64.zip
